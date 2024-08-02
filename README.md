@@ -30,58 +30,108 @@ Follow the steps below to run ChatApp on your local machine.
 - [Angular CLI](https://angular.io/cli)
 - SQL Server
 
-### Steps
+## Steps
 
-1. **Clone the Project:**
-   ```bash
-   git clone https://github.com/yourusername/chatapp.git
-   cd chatapp
+2. **Backend Setup:**
 
-   Backend Setup:
+   - **Navigate to the backend directory:**
 
-Navigate to the backend directory:
-bash
-Kodu kopyala
-cd backend
-Install the required dependencies and run the project:
-bash
-Kodu kopyala
-dotnet restore
-dotnet run
-It will run at http://localhost:5000 by default.
-Frontend Setup:
+     ```bash
+     cd backend
+     ```
 
-Navigate to the frontend directory:
-bash
-Kodu kopyala
-cd ../frontend
-Install the dependencies:
-bash
-Kodu kopyala
-npm install
-Start the Angular application:
-bash
-Kodu kopyala
-ng serve
-The app will run at http://localhost:4200 by default.
-Database Settings:
+   - **Install the required dependencies:**
 
-Update the SQL Server connection string in the appsettings.json file.
-Usage
-Open your browser and navigate to http://localhost:4200.
-Create a new account or log in with an existing account.
-Start messaging or send photos!
-Contributing
-If you would like to contribute, please follow these steps:
+     Ensure you have the .NET Core SDK installed, then run:
 
-Fork this repository.
-Create your branch (git checkout -b feature/your-feature-name).
-Commit your changes (git commit -m 'Add new feature: your-feature-name').
-Push to your branch (git push origin feature/your-feature-name).
-Open a pull request.
-License
-This project is licensed under the MIT License.
+     ```bash
+     dotnet restore
+     ```
 
-Contact
-Project Owner: Mehmet Özdemir
-Email: mehmetozdmirr@icloud.com
+   - **Run the project:**
+
+     Start the backend server using the following command:
+
+     ```bash
+     dotnet run
+     ```
+
+   - **Verify the backend:**
+
+     The server will be running at `http://localhost:5000` by default. You can test the API using tools like [Postman](https://www.postman.com/) or `curl` to ensure it's working correctly.
+
+3. **Frontend Setup:**
+
+   - **Navigate to the frontend directory:**
+
+     ```bash
+     cd ../frontend
+     ```
+
+   - **Install the dependencies:**
+
+     Make sure you have Node.js and npm installed, then run:
+
+     ```bash
+     npm install
+     ```
+
+   - **Start the Angular application:**
+
+     Launch the frontend development server using:
+
+     ```bash
+     ng serve
+     ```
+
+   - **Verify the frontend:**
+
+     Open your browser and go to `http://localhost:4200` to see the application running.
+
+4. **Database Configuration:**
+
+   - **Set up your SQL Server:**
+
+     Ensure that your SQL Server instance is running and accessible.
+
+   - **Configure the connection string:**
+
+     Update the `appsettings.json` file in the backend project with your SQL Server connection details. Here is an example of what the configuration might look like:
+
+     ```json
+     {
+       "ConnectionStrings": {
+         "DefaultConnection": "Server=YOUR_SERVER_NAME;Database=ChatAppDB;User Id=YOUR_USER_ID;Password=YOUR_PASSWORD;"
+       }
+     }
+     ```
+
+   - **Apply database migrations:**
+
+     Run the following command to ensure your database schema is up to date:
+
+     ```bash
+     dotnet ef database update
+     ```
+
+## Usage
+
+1. **Access the application:**
+
+   - Open your web browser and navigate to `http://localhost:4200`.
+
+2. **Register or log in:**
+
+   - Use the registration page to create a new account or log in with existing credentials.
+
+3. **Start messaging:**
+
+   - Once logged in, you can start sending messages and sharing photos with other users.
+
+## Contact
+
+- **Proje Owner:** [Mehmet Özdemir]
+- **Email:** [mehmetozdmirr@icloud.com]
+- **LinkedIn:** [https://www.linkedin.com/in/mehmet-%C3%B6zdemir-685340299/]
+
+These contact details will help users and potential contributors get in touch with you for more information. Feel free to add more social media or contact channels as needed!
