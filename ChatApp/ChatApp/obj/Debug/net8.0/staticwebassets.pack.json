@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\omen\\source\\repos\\ChatApp\\ChatApp\\wwwroot\\images\\2288d62f-e082-4985-8421-62f542761afb.jpg",
+      "PackagePath": "staticwebassets\\images\\2288d62f-e082-4985-8421-62f542761afb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\omen\\source\\repos\\ChatApp\\ChatApp\\wwwroot\\images\\417e5a02-ec3f-410d-80d4-8b5660adfd9b.jpg",
+      "PackagePath": "staticwebassets\\images\\417e5a02-ec3f-410d-80d4-8b5660adfd9b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\omen\\source\\repos\\ChatApp\\ChatApp\\wwwroot\\images\\545ba030-4333-45e5-9e4b-fd9a29ce81d0.jpg",
+      "PackagePath": "staticwebassets\\images\\545ba030-4333-45e5-9e4b-fd9a29ce81d0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\omen\\source\\repos\\ChatApp\\ChatApp\\wwwroot\\images\\9cb7c644-7b7f-4bbc-bd63-ed8fc0e9b1f5.jpg",
+      "PackagePath": "staticwebassets\\images\\9cb7c644-7b7f-4bbc-bd63-ed8fc0e9b1f5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\omen\\source\\repos\\ChatApp\\ChatApp\\wwwroot\\images\\e2415508-3307-417e-882d-7530c2982f76.jpg",
+      "PackagePath": "staticwebassets\\images\\e2415508-3307-417e-882d-7530c2982f76.jpg"
+    },
+    {
+      "Id": "C:\\Users\\omen\\source\\repos\\ChatApp\\ChatApp\\wwwroot\\images\\fe4859e8-fbc5-4ca7-9941-78f8010d7d3a.jpg",
+      "PackagePath": "staticwebassets\\images\\fe4859e8-fbc5-4ca7-9941-78f8010d7d3a.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ChatApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ChatApp.props",
+      "PackagePath": "build\\ChatApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ChatApp.props",
+      "PackagePath": "buildMultiTargeting\\ChatApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ChatApp.props",
+      "PackagePath": "buildTransitive\\ChatApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,29 @@
+/* app.component.css */
+.navbar {
+    background-color: #007bff;
+    border-bottom: 3px solid #0056b3;
+    transition: background-color 0.3s, border-bottom 0.3s;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive; /* Google Fonts'tan hoş bir font ekledik */
+    font-size: 2rem;
+    color: white;
+    transition: color 0.3s;
+}
+
+.navbar-brand:hover {
+    color: #ffdd57;
+}
+
+@keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.navbar {
+    background: linear-gradient(45deg, #ff6ec4, #7873f5);
+    background-size: 200% 200%;
+    animation: gradient-animation 5s ease infinite;
+}

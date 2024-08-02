@@ -1,0 +1,37 @@
+<div class="container register-container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h2>Register</h2>
+                </div>
+                <div class="card-body">
+                    <form (ngSubmit)="onSubmit()">
+                        <div class="form-group">
+                            <label for="name">Username</label>
+                            <input type="text" class="form-control" id="name" [(ngModel)]="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" [(ngModel)]="password" name="password" required>
+                        </div>
+                        <div class="form-group role-selector">
+                          <label for="role">Role</label>
+                          <select class="form-control" id="role" [(ngModel)]="role" name="role" required>
+                              <option value="admin">Admin</option>
+                              <option value="user">User</option>
+                              <option value="vip">Vip</option>
+                          </select>
+                      </div>
+                      <p>Selected Role: {{ role }}</p>
+                        <button type="submit" class="btn btn-primary btn-block">Register</button>
+                    </form>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p>Already registered? <a href="/login">Login here</a></p>
+            </div>
+        </div>
+    </div>
+  </div>
+  

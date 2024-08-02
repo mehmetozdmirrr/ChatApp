@@ -1,0 +1,74 @@
+.login-container {
+    margin-top: 50px;
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: .55rem;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+    border-bottom: none;
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: .55rem .55rem 0 0;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border-radius: .25rem;
+    box-shadow: none;
+    border-color: #e1e1e1;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: .25rem;
+    padding: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+    transform: translateY(-2px);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-center a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.text-center a:hover {
+    color: #0056b3;
+}
